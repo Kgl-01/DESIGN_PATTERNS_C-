@@ -12,3 +12,4 @@ C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\DESIGN_PATTERNS_C#\obj\Debug\
 C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\DESIGN_PATTERNS_C#\obj\Debug\net9.0\DESIGN_PATTERNS_C#.pdb
 C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\DESIGN_PATTERNS_C#\obj\Debug\net9.0\DESIGN_PATTERNS_C#.genruntimeconfig.cache
 C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\DESIGN_PATTERNS_C#\obj\Debug\net9.0\ref\DESIGN_PATTERNS_C#.dll
+C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\DESIGN_PATTERNS_C#\obj\Debug\net9.0\DESIGN_PATTERNS_C#.sourcelink.json

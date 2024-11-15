@@ -1,17 +1,10 @@
 ﻿//Inheritence
 
-using DESIGN_PATTERNS_C_.src.OOP_Principles.Inheritence;
+using DESIGN_PATTERNS_C_.src.OOP_Principles.Coupling;
 
-List<Vehicle> vehicles = new List<Vehicle>();
+INotificationService notificationService = new SmsSender();
 
-vehicles.Add(new Car { Brand = "Toyota", Model = "Camry", Year = 2020, NumberOfDoors = 4 });
-vehicles.Add(new Bike { Brand = "Bajaj", Model = "Pulsar 200NS", Year = 2018 });
+var order = new Order(notificationService);
 
-
-//vehicle inspection
-
-foreach (var vehicle in vehicles)
-{
-    System.Console.WriteLine(typeof(Vehicle).Name);
-}
+order.PlaceOrder();
 
