@@ -1,10 +1,6 @@
-﻿//Inheritence
+﻿//Composition
 
-using DESIGN_PATTERNS_C_.src.OOP_Principles.Coupling;
+using DESIGN_PATTERNS_C_.src.OOP_Principles.Composition;
 
-INotificationService notificationService = new SmsSender();
-
-var order = new Order(notificationService);
-
-order.PlaceOrder();
-
+var car = new Car();
+car.StartCar();

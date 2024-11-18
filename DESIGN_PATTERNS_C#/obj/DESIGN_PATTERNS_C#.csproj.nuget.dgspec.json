@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karth\\OneDrive\\Desktop\\DESIGN_PATTERNS_C#\\DESIGN_PATTERNS_C#\\DESIGN_PATTERNS_C#.csproj": {}
+    "c:\\Users\\karth\\OneDrive\\Desktop\\DESIGN_PATTERNS_C#\\DESIGN_PATTERNS_C#\\DESIGN_PATTERNS_C#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karth\\OneDrive\\Desktop\\DESIGN_PATTERNS_C#\\DESIGN_PATTERNS_C#\\DESIGN_PATTERNS_C#.csproj": {
+    "c:\\Users\\karth\\OneDrive\\Desktop\\DESIGN_PATTERNS_C#\\DESIGN_PATTERNS_C#\\DESIGN_PATTERNS_C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karth\\OneDrive\\Desktop\\DESIGN_PATTERNS_C#\\DESIGN_PATTERNS_C#\\DESIGN_PATTERNS_C#.csproj",
+        "projectUniqueName": "c:\\Users\\karth\\OneDrive\\Desktop\\DESIGN_PATTERNS_C#\\DESIGN_PATTERNS_C#\\DESIGN_PATTERNS_C#.csproj",
         "projectName": "DESIGN_PATTERNS_C#",
-        "projectPath": "C:\\Users\\karth\\OneDrive\\Desktop\\DESIGN_PATTERNS_C#\\DESIGN_PATTERNS_C#\\DESIGN_PATTERNS_C#.csproj",
+        "projectPath": "c:\\Users\\karth\\OneDrive\\Desktop\\DESIGN_PATTERNS_C#\\DESIGN_PATTERNS_C#\\DESIGN_PATTERNS_C#.csproj",
         "packagesPath": "C:\\Users\\karth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karth\\OneDrive\\Desktop\\DESIGN_PATTERNS_C#\\DESIGN_PATTERNS_C#\\obj\\",
+        "outputPath": "c:\\Users\\karth\\OneDrive\\Desktop\\DESIGN_PATTERNS_C#\\DESIGN_PATTERNS_C#\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
