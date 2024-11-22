@@ -22,8 +22,8 @@ public class VendingMachine
     {
         try
         {
-            using FileStream fileStream = new FileStream("../Data/menu.json", FileMode.Open, FileAccess.Read);
-            var products = JsonSerializer.Deserialize<List<Product>>(fileStream);
+            string text = File.ReadAllText(@"C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\DESIGN_PATTERNS_C#\src\SOLID_Principles\Data\menu.json");
+            var products = JsonSerializer.Deserialize<List<Product>>(text);
 
 
             foreach (var product in products)
