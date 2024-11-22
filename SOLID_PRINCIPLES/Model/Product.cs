@@ -1,4 +1,4 @@
-namespace DESIGN_PATTERNS_C_.src.SOLID_Principles.Model;
+namespace SOLID_PRINCIPLES.Model;
 
 public class Product
 {
@@ -8,7 +8,7 @@ public class Product
     public string Type { get; set; }
     public override string ToString()
     {
-        return "Product";
+        return $"ID: {ID} - {Name} - {Price:0.##} "; ;
     }
 }
 

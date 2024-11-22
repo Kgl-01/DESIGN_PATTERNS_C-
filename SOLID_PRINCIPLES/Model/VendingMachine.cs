@@ -1,7 +1,6 @@
 using System.Text.Json;
-using System.Text.Json.Nodes;
 
-namespace DESIGN_PATTERNS_C_.src.SOLID_Principles.Model;
+namespace SOLID_PRINCIPLES.Model;
 
 public class VendingMachine
 {
@@ -22,7 +21,7 @@ public class VendingMachine
     {
         try
         {
-            string text = File.ReadAllText(@"C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\DESIGN_PATTERNS_C#\src\SOLID_Principles\Data\menu.json");
+            string text = File.ReadAllText(@"C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\SOLID_PRINCIPLES\Data\menu.json");
             var products = JsonSerializer.Deserialize<List<Product>>(text);
 
 

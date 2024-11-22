@@ -1,0 +1,15 @@
+C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\SOLID_PRINCIPLES\bin\Debug\net9.0\SOLID_PRINCIPLES.exe
+C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\SOLID_PRINCIPLES\bin\Debug\net9.0\SOLID_PRINCIPLES.deps.json
+C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\SOLID_PRINCIPLES\bin\Debug\net9.0\SOLID_PRINCIPLES.runtimeconfig.json
+C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\SOLID_PRINCIPLES\bin\Debug\net9.0\SOLID_PRINCIPLES.dll
+C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\SOLID_PRINCIPLES\bin\Debug\net9.0\SOLID_PRINCIPLES.pdb
+C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\SOLID_PRINCIPLES\obj\Debug\net9.0\SOLID_PRINCIPLES.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\SOLID_PRINCIPLES\obj\Debug\net9.0\SOLID_PRINCIPLES.AssemblyInfoInputs.cache
+C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\SOLID_PRINCIPLES\obj\Debug\net9.0\SOLID_PRINCIPLES.AssemblyInfo.cs
+C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\SOLID_PRINCIPLES\obj\Debug\net9.0\SOLID_PRINCIPLES.csproj.CoreCompileInputs.cache
+C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\SOLID_PRINCIPLES\obj\Debug\net9.0\SOLID_PRINCIPLES.sourcelink.json
+C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\SOLID_PRINCIPLES\obj\Debug\net9.0\SOLID_PRINCIPLES.dll
+C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\SOLID_PRINCIPLES\obj\Debug\net9.0\refint\SOLID_PRINCIPLES.dll
+C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\SOLID_PRINCIPLES\obj\Debug\net9.0\SOLID_PRINCIPLES.pdb
+C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\SOLID_PRINCIPLES\obj\Debug\net9.0\SOLID_PRINCIPLES.genruntimeconfig.cache
+C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\SOLID_PRINCIPLES\obj\Debug\net9.0\ref\SOLID_PRINCIPLES.dll
