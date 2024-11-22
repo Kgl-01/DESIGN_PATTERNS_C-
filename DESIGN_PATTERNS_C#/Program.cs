@@ -1,6 +1,4 @@
-﻿//Composition
+﻿using DESIGN_PATTERNS_C_.src.SOLID_Principles.Model;
 
-using DESIGN_PATTERNS_C_.src.OOP_Principles.Composition;
-
-var car = new Car();
-car.StartCar();
+var vendingMachine = new VendingMachine();
+vendingMachine.Start();
