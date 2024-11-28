@@ -1,3 +1,6 @@
+using SOLID_PRINCIPLES.LSP;
+
+
 namespace SOLID_PRINCIPLES.Model;
 
 public class Product
@@ -8,7 +11,7 @@ public class Product
     public string Type { get; set; }
     public override string ToString()
     {
-        return $"ID: {ID} - {Name} - {Price:0.##} "; ;
+        return $"ID: {ID} - {Name} - {this.GetPriceTagMaker().MakePriceTagForProduct(this)} "; ;
     }
 }
 

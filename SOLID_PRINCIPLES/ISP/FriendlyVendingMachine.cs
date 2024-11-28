@@ -1,17 +1,13 @@
-using System.Text.Json;
 using SOLID_PRINCIPLES.DIP;
-using SOLID_PRINCIPLES.ISP;
-using SOLID_PRINCIPLES.SRP;
 
-namespace SOLID_PRINCIPLES.Model;
+namespace SOLID_PRINCIPLES.ISP;
 
-public class VendingMachine : IVendingMachine
+public class FriendlyVendingMachine : IVendingMachine, ICanGreet, ICanTellTime
 {
 
+    private readonly IMenuLoader _menuLoader;
 
-    private IMenuLoader _menuLoader;
-
-    public VendingMachine(IMenuLoader menuLoader)
+    public FriendlyVendingMachine(IMenuLoader menuLoader)
     {
         _menuLoader = menuLoader;
     }
@@ -32,24 +28,7 @@ public class VendingMachine : IVendingMachine
 
     public void DisplayMenu()
     {
-        // Previous Logic
-        // try
-        // {
-        //     string text = File.ReadAllText(@"C:\Users\karth\OneDrive\Desktop\DESIGN_PATTERNS_C#\SOLID_PRINCIPLES\Data\menu.json");
-        //     var products = JsonSerializer.Deserialize<List<Product>>(text);
 
-
-        //     foreach (var product in products)
-        //     {
-        //         System.Console.WriteLine(product.ToString());
-        //     }
-        // }
-        // catch (DirectoryNotFoundException ex)
-        // {
-        //     System.Console.WriteLine(ex.Message);
-        // }
-
-        // var menuLoader = new JsonMenuLoader();
 
         var products = _menuLoader.LoadMenu();
 
@@ -72,4 +51,5 @@ public class VendingMachine : IVendingMachine
         DisplayMenu();
         SayBye();
     }
+
 }
