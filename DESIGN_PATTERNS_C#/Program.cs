@@ -1,22 +1,16 @@
-﻿using DESIGN_PATTERNS_C_.src.Behavioural.Design.Patterns.Memento.Pattern.Good;
+﻿
+using DESIGN_PATTERNS_C_.src.Behavioural.Design.Patterns.State.Pattern;
+using DESIGN_PATTERNS_C_.src.Behavioural.Design.Patterns.State.Pattern.Good;
 
-var editor = new Editor();
-var history = new History(editor);
+var document = new Document(UserRoles.Admin);
+System.Console.WriteLine(document.State);
 
-history.BackUp();
-editor.Title = "Test";
-history.BackUp();
-editor.Content = "Hello there, my name is Karthik";
-history.BackUp();
-editor.Title = "The life of a dev: my mementos";
+document.Publish();
+System.Console.WriteLine(document.State);
 
+document.Publish();
+System.Console.WriteLine(document.State);
 
-System.Console.WriteLine($"Title: {editor.Title}");
-System.Console.WriteLine($"Content: {editor.Content}");
+document.State = new DraftState(document);
 
-history.Undo();
-
-System.Console.WriteLine($"Title: {editor.Title}");
-System.Console.WriteLine($"Content: {editor.Content}");
-
-history.ShowHistory();
+System.Console.WriteLine(document.State);
