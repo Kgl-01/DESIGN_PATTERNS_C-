@@ -2,7 +2,7 @@ namespace DESIGN_PATTERNS_C_.src.Behavioural.Design.Patterns.State.Pattern.Good;
 
 public class Document
 {
-    public IState State { get; set; }
+    private IState State;
     public UserRoles CurrentUserRole { get; set; }
 
     public Document(UserRoles currentUserRole)
