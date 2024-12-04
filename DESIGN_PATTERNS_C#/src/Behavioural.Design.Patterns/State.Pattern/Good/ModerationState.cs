@@ -15,7 +15,7 @@ public class ModerationState : IState
 
         if (_document.CurrentUserRole == UserRoles.Admin)
         {
-            _document.State = new PublishState(_document);
+            _document.SetState(new PublishState(_document));
         }
     }
 }

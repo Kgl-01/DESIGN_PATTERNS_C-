@@ -12,7 +12,7 @@ public class DraftState : IState
 
     public void Publish()
     {
-        _document.State = new ModerationState(_document);
+        _document.SetState(new ModerationState(_document));
     }
 
 }
