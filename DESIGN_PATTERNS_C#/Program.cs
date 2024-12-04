@@ -1,5 +1,6 @@
 ﻿
 using DESIGN_PATTERNS_C_.src.Behavioural.Design.Patterns.Iterator.Pattern.Bad;
+using DESIGN_PATTERNS_C_.src.Behavioural.Design.Patterns.Iterator.Pattern.Good;
 using DESIGN_PATTERNS_C_.src.Behavioural.Design.Patterns.State.Pattern;
 using DESIGN_PATTERNS_C_.src.Behavioural.Design.Patterns.State.Pattern.Good;
 using DESIGN_PATTERNS_C_.src.Behavioural.Design.Patterns.Strategy.Pattern.Good;
@@ -36,8 +37,15 @@ shoppingListBad.Push("Milk");
 shoppingListBad.Push("Bread");
 shoppingListBad.Push("Mutton");
 
-for (int i = 0; i < shoppingListBad.GetShoppingList().Count; i++)
+ShoppingListGood shoppingListGood = new ShoppingListGood();
+shoppingListGood.Push("Milk");
+shoppingListGood.Push("Bread");
+shoppingListGood.Push("Mutton");
+
+var iterator = shoppingListGood.CreateIterator();
+
+while (iterator.HasNext())
 {
-    var item = shoppingListBad.GetShoppingList()[i];
-    System.Console.WriteLine(item);
+    System.Console.WriteLine(iterator.Current());
+    iterator.Next();
 }
